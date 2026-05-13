@@ -51,7 +51,7 @@ app.use(cors({
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'x-api-key', 'x-app-author', 'x-app-name', 'x-app-client', 'x-app-api', 'x-app-env']
 }));
 
 // Rate limiting
