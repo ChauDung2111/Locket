@@ -16,5 +16,8 @@
     "build:main": "npm run build -w main",
     "dev:api": "npm run dev --prefix apps/self-hosted/api",
     "start:api": "npm run start --prefix apps/self-hosted/api"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.60.3"
   }
 }
