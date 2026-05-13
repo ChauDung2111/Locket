@@ -55,5 +55,11 @@
     "tailwindcss": "4.1.13",
     "vite": "^6.2.5",
     "vite-plugin-pwa": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "*",
+    "@rollup/rollup-linux-x64-musl": "*",
+    "@swc/core-linux-x64-gnu": "*",
+    "@swc/core-linux-x64-musl": "*"
   }
 }
