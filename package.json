@@ -18,6 +18,9 @@
     "start:api": "npm run start --prefix apps/self-hosted/api"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.60.3"
+    "@rollup/rollup-linux-x64-gnu": "*",
+    "@rollup/rollup-linux-x64-musl": "*",
+    "@swc/core-linux-x64-gnu": "*",
+    "@swc/core-linux-x64-musl": "*"
   }
 }
