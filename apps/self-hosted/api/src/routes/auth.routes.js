@@ -4,8 +4,8 @@ const authCtrl = require('../controllers/auth.controller');
 const { protect } = require('../middleware/auth.middleware');
 const { authLimiter } = require('../middleware/rateLimiter');
 
-// POST /locket/login
-router.post('/login', authLimiter, authCtrl.loginWithEmail);
+// POST /locket/loginV2
+router.post('/loginV2', authLimiter, authCtrl.loginWithEmail);
 
 // POST /locket/loginWithPhoneV2
 router.post('/loginWithPhoneV2', authLimiter, authCtrl.loginWithPhone);
